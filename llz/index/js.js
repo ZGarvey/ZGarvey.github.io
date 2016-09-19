@@ -35,13 +35,13 @@ window.onload = function () {
         allimg[j].num = j;
 
         allimg[j].onmouseout = function () { // 鼠标离开
-            this.className = 'b-img' + this.num;
+           // this.className = 'b-img' + this.num;
             damo();
         };
 
         allimg[j].onmouseover = function () { //鼠标移上
             clearInterval(timer);
-            this.className = 'bb-img' + this.num;
+            //this.className = 'bb-img' + this.num;
 
         };
     }

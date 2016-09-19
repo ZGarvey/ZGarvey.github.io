@@ -102,7 +102,7 @@ body {
 }
 
 .bottom-left li a {
-    color: #828282;
+    color: #828282;letter-spacing:1px;
 }
 
 .bottom-left li a:hover {
@@ -200,7 +200,7 @@ body {
 }
 
 .middle-l02 dt, .middle-l02 dd {
-    float: left;
+    float: left;cursor:pointer;
     margin-right: 1px;
     background: #f5f5f5;
 
@@ -245,87 +245,52 @@ body {
 
 .b-img0 {
     width: 386px;
-    height: 223px;
+    height: 223px;cursor:pointer;
     background: url(images/yx07.jpg) no-repeat center center;
     background-size: 386px 223px;
 }
+.b-img0:hover{opacity: .8;filter:alpha(opacity=80);}
+.b-img1:hover{opacity: .8;filter:alpha(opacity=80);}
+.b-img2:hover{opacity: .8;filter:alpha(opacity=80);}
+.b-img3:hover{opacity: .8;filter:alpha(opacity=80);}
+.b-img4:hover{opacity: .8;filter:alpha(opacity=80);}
+.b-img5:hover{opacity: .8;filter:alpha(opacity=80);}
 
-.b-img1 {
+ .b-img1 {
     width: 386px;
-    height: 223px;
+    height: 223px;cursor:pointer;
     background: url(images/yx02.jpg) no-repeat center center;
     background-size: 386px 223px;
 }
 
 .b-img2 {
     width: 386px;
-    height: 223px;
+    height: 223px;cursor:pointer;
     background: url(images/yx03.jpg) no-repeat center center;
     background-size: 386px 223px;
 }
 
 .b-img3 {
     width: 386px;
-    height: 223px;
+    height: 223px;cursor:pointer;
     background: url(images/yx04.jpg) no-repeat center center;
     background-size: 386px 223px;
 }
 
 .b-img4 {
     width: 386px;
-    height: 223px;
+    height: 223px;cursor:pointer;
     background: url(images/yx05.jpg) no-repeat center center;
     background-size: 386px 223px;
 }
 
 .b-img5 {
     width: 386px;
-    height: 223px;
+    height: 223px;cursor:pointer;
     background: url(images/yx06.jpg) no-repeat center center;
     background-size: 386px 223px;
 }
 
-.bb-img0 {
-    width: 386px;
-    height: 223px;
-    background: url(images/fj1.jpg) no-repeat center center;
-    background-size: 386px 223px;
-}
-
-.bb-img1 {
-    width: 386px;
-    height: 223px;
-    background: url(images/fj2.jpg) no-repeat center center;
-    background-size: 386px 223px;
-}
-
-.bb-img2 {
-    width: 386px;
-    height: 223px;
-    background: url(images/fj3.jpg) no-repeat center center;
-    background-size: 386px 223px;
-}
-
-.bb-img3 {
-    width: 386px;
-    height: 223px;
-    background: url(images/fj4.jpg) no-repeat center center;
-    background-size: 386px 223px;
-}
-
-.bb-img4 {
-    width: 386px;
-    height: 223px;
-    background: url(images/fj5.jpg) no-repeat center center;
-    background-size: 386px 223px;
-}
-
-.bb-img5 {
-    width: 386px;
-    height: 223px;
-    background: url(images/fj6.jpg) no-repeat center center;
-    background-size: 386px 223px;
-}
 
 .middle-lb01 dl {
     width: 316px;
@@ -336,13 +301,13 @@ body {
 }
 
 .middle-lb01 dl dt {
-    color: #1f1f1f;
     font-size: 16px;
     line-height: 26px;
     padding-top: 10px;
 }
+.middle-lb01 dl dt a{color: #1f1f1f;font-family:'微软雅黑'  }
 
-.middle-lb01 dl dd {
+ .middle-lb01 dl dd {
     color: #aeaeae;
     font-size: 12px;
     padding-top: 15px;
@@ -388,7 +353,7 @@ body {
 
 .lb-img img {
     width: 880px;
-    height: 400px;
+    height: 400px;cursor:pointer;
 }
 
 .box2 {
@@ -456,7 +421,7 @@ body {
 }
 
 .middle-left-b-2 dl dt, .middle-left-b-2 dd {
-    float: left;
+    float: left;cursor:pointer;
     margin-right: 1px;
     background: #404040;
 
@@ -754,17 +719,17 @@ body {
 }
 
 .tutu img {
-    width: 880px;
+    width: 880px;cursor:pointer;
     height: 399px;
 }
 
 .tugou img {
-    width: 880px;
+    width: 880px;cursor:pointer;
     height: 399px;
 }
 
 .che img {
-    width: 880px;
+    width: 880px;cursor:pointer;
     height: 399px;
 }
 
@@ -1248,15 +1213,16 @@ body {
 }
 
 .right-7 .input input {
-    width: 200px;
-    height: 40px;
+    width: 195px;
+    height: 40px;outline:none;
     border: 1px solid #dcdcdc;
     vertical-align: top;
     padding-left: 10px;
+    float:left;
 }
 
 .right-7 .input div {
-    display: inline-block;
+    float:left;
     height: 42px;
     width: 88px;
     background: #ff5842;
