@@ -38,8 +38,9 @@ a{text-decoration:none;}
 .lgl-md{width:1200px;margin:0 auto;}
 .lgl-l{float:left;}
 .lgl-l dt{font-size:25px;line-height:32px;margin:20px 0;padding-left:41px;color:#1f1f1f;font-weight:200;background:url(../images/six-1_03.jpg) no-repeat}
-.lgl-l .six-dd1 a{width:880px;height:397px;background:#b4b4b4;margin-top:30px;display:block;}
-.lgl-l .six-dd2{font-size:16px;padding:23px 0 16px;}
+.lgl-l .six-dd1 a{width:880px;height:397px;margin-top:30px;display:block;}
+.lgl-l .six-dd1 img {width:880px;height:397px;}
+.lgl-l .six-dd2{font-size:16px;padding:23px 0 16px;cursor:pointer;}
 .lgl-l .six-dd3{font-size:12px;color:#9f9f9f;padding-bottom:20px;}
 .lgl-l .six-dd3 span{color:#ff5842}
 .lgl-l .six-dd4{border:1px solid #f8f8f8;border-top:none;padding-left: 15px;}
@@ -95,7 +96,8 @@ a{text-decoration:none;}
 .right-2 dd.non{margin-right:0;}
 
 .right-3 dt{background:url(../images/r-3_03.jpg) no-repeat;}
-.right-3 .dd1{height:250px;background:#ececec;}
+.right-3 .dd1{height:250px;width:300px;cursor:pointer;}
+.right-3 .dd1 img{height:250px;width:300px;}
 .right-3 .dd2{background:#f24933;padding-top:5px;margin-top:20px ;}
 .right-3  .dd2 ul{color:#fff;height:45px;background:#ff5842;}
 .right-3 .dd2 li{height:45px;width:100px;cursor:pointer;float:left;position:relative;line-height:45px;text-align:center;}
@@ -106,7 +108,7 @@ a{text-decoration:none;}
 .right-3 .dd3{padding:0 10px;border-left:2px solid #f8f8f8;border-right:2px solid #f8f8f8;border-bottom:2px solid #f8f8f8;}
 .right-3 .dd3 .r-box{border-bottom:2px solid #f8f8f8;}
 .right-3 .dd3 .r-box div{float:left;}
-.right-3 .dd3 .r-3-l{width:90px;height:90px;background:url(../images/long_05.jpg) no-repeat;margin:10px 10px 10px 0;}
+.right-3 .dd3 .r-3-l{width:90px;height:90px;background:url(../images/long_05.jpg) no-repeat;margin:10px 10px 10px 0;cursor:pointer;}
 .right-3 .dd3 .r-box2{background:url(../images/long_05.jpg) no-repeat  0 -113px;}
 .right-3 .dd3 .r-box3{background:url(../images/long_05.jpg) no-repeat  0 -225px;}
 .right-3 .dd3 .r-box4{background:url(../images/long_05.jpg) no-repeat  0 -335px;}
@@ -131,10 +133,33 @@ a{text-decoration:none;}
 .right-6 dd:hover .r-6-img{background:url(../images/bird-r6.2.png) no-repeat 8px 11px;}
 
 .right-7 dt{background:url(../images/r-7_03.jpg) no-repeat}
-.right-7 .dd1{color:#8e8e8e;margin-bottom:15px;}
-.right-7 .input input{width:200px;height:40px;border:1px solid #dcdcdc;vertical-align:top;padding-left:10px;}
-.right-7 .input div{display:inline-block;height:42px;width:88px;background:#ff5842;text-align:center;line-height:42px;}
-.right-7 .input div a{color:#fff;}
+
+.right-7 .dd1 {
+    color: #8e8e8e;
+    margin-bottom: 15px;
+}
+
+.right-7 .input input {
+    width: 195px;
+    height: 40px;outline:none;
+    border: 1px solid #dcdcdc;
+    vertical-align: top;
+    padding-left: 10px;
+    float:left;
+}
+
+.right-7 .input div {
+    float:left;
+    height: 42px;
+    width: 88px;
+    background: #ff5842;
+    text-align: center;
+    line-height: 42px;
+}
+
+.right-7 .input div a {
+    color: #fff;
+}
 
 
 

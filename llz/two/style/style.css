@@ -40,16 +40,18 @@ a{text-decoration:none;}
 .wei-middle .dn-tu{position:absolute;top:-19px;left:502px;}
 
 
- .left-tu{position:absolute;top:48%;left:10px;}
- .right-tu{position:absolute;top:48%;right:10px;}
+ .left-tu{position:absolute;top:48%;left:10px;cursor:pointer;}
+
+ .right-tu{position:absolute;top:48%;right:10px;cursor:pointer;}
+
 
  /*可关闭*/
 .gb{width:100%;background:#121212;}
 .gb-middle{width:1200px;height:100px;margin:0 auto;color:#fff;}
 .gb-middle li:nth-child(1){float:left;margin:25px 25px 25px 0;font-size:22px;letter-spacing:1px;}
 .gb-middle li a{display:inline-block;float:right;font-size:30px;color:#383838;width:50px;height:50px;line-height:50px;margin-top:25px;text-align: right;background:url("../images/cuo.png") no-repeat 20px 10px;}
-.gb-middle .gb-1{display:inline-block;padding:12px 17px;background:#1f1f1f;}
-
+.gb-middle .gb-1{display:inline-block;padding:12px 17px;background:#1f1f1f;cursor:pointer}
+.gb-middle .gb-1:hover{background: #2b2b2b }
 
 /*专题*/
 .wei-zt{width:100%}
@@ -74,9 +76,12 @@ a{text-decoration:none;}
 .wei-body2 p .nei:hover{background:#eeeeee url("../images/91.png") no-repeat 10px 10px;cursor:pointer}
 .wei-body2 p .nei2:hover{background:#eeeeee url("../images/81.png") no-repeat 10px 10px;cursor:pointer}
 .wei-body2 li{float:left;width:283px;height:370px;background:#f9f9f9;margin-right:20px;border:1px solid #f8f8f8;}
-.wei-body2 .show{width:1200px;height:380px;overflow:hidden;}
-.wei-body2 ul{position: relative;width:3000px;}
-.wei-body2 dt{width:281px;height:267px;background:#fff;text-align:center;font-size:30px;line-height:267px; }
+.wei-body2 .show {width:1200px;height:380px;position:relative;}
+#zx {width:4000px;height:380px;position: absolute;left:0;top:0;}
+
+
+.wei-body2 dt{width:283px;height:267px;background:#fff;text-align:center;font-size:30px;line-height:267px;cursor: pointer;}
+.wei-body2 dt img{width:283px;height:267px}
 .wei-body2 dd{text-align:center;margin-top:13px;}
 .wei-body2 a{font-size:14px;display:inline-block;padding:5px 10px;background:#e6e6e6;color:#565656;}
 .wei-body2 a:hover{background:#ff5842;color:#fff;}
@@ -103,19 +108,19 @@ a{text-decoration:none;}
 .wei-body4{width:1200px;border-bottom:1px solid #e6e6e6;padding-bottom:20px;}
 .wei-body4 p{font-size:20px;color:#4b4b4b;height:38px;line-height:38px;text-indent:40px;background:url("../images/12.jpg") no-repeat;margin:25px 0;position:relative;}
 .wei-body4 li{float:left;height:172px;}
-.wei-body4 li:nth-child(1){width:40px;background:#eeeeee url("../images/91.png") no-repeat 8px 75px;}
+.wei-body4 li:nth-child(1){width:40px;background:#eeeeee url("../images/xshang.png") no-repeat 8px 75px;cursor:pointer}
 .wei-body4 li:nth-child(2){width:1096px;margin:0 9px;overflow:hidden;}
-.wei-body4 li:nth-child(3){width:40px;background:#eeeeee url("../images/81.png") no-repeat 8px 75px;float:right;}
+.wei-body4 li:nth-child(3){width:40px;background:#eeeeee url("../images/xxia.png") no-repeat 8px 75px;float:right;cursor:pointer}
 
 
-.fei dt{width:200px;height:172px;background:#797979;float:left;margin-right:14px;}
+.fei dt{width:200px;height:172px;background:#797979;float:left;margin-right:14px;cursor:pointer}
 .fei img{width:200px;height:172px;}
 .fei .ko1{font-size:18px;color:#424242;padding-top:10px;}
 .fei .ko2{font-size:12px;color:#bbbbbb;padding-top:8px;}
 .fei .ko3{font-size:12px;color:#000000;padding-top:13px;line-height:20px;}
 .fei a{display:inline-block;width:208px;height:50px;line-height:50px;text-align:center;font-size:20px;color:#fff;background:#ff5842;margin-top:16px;}
 
-.fei1 dt{width:200px;height:172px;background:#797979;float:left;margin-right:14px;}
+.fei1 dt{width:200px;height:172px;background:#797979;float:left;margin-right:14px;cursor:pointer}
 .fei1 img{width:200px;height:172px;}
 .fei1 .ko1{font-size:18px;color:#424242;padding-top:10px;}
 .fei1 .ko2{font-size:12px;color:#bbbbbb;padding-top:8px;}
@@ -132,6 +137,7 @@ a{text-decoration:none;}
 .wei-body5 .boo img{width:30px;height:30px;}
 .wei-body5 .bo1 dl{float:left;width:230px;}
 .wei-body5 .bo1 .opp{margin:0 38px 0 37px;}
+.wei-body5 .bo1 dt{cursor:pointer;}
 .wei-body5 .bo1 dd{font-size:12px;line-height:16px;}
 
 .wei-body5 .boo2{width:390px;height:224px;background:#57bae8;float:right;margin:25px 0;}

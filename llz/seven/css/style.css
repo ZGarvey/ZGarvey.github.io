@@ -116,7 +116,7 @@ a{text-decoration:none;}
 .right-3 .dd3{padding:0 10px;border-left:2px solid #f8f8f8;border-right:2px solid #f8f8f8;border-bottom:2px solid #f8f8f8;}
 .right-3 .dd3 .r-box{border-bottom:2px solid #f8f8f8;}
 .right-3 .dd3 .r-box div{float:left;}
-.right-3 .dd3 .r-3-l{width:90px;height:90px;background:url(../images/long_05.jpg) no-repeat;margin:10px 10px 10px 0;}
+.right-3 .dd3 .r-3-l{width:90px;height:90px;background:url(../images/long_05.jpg) no-repeat;margin:10px 10px 10px 0;cursor:pointer;}
 .right-3 .dd3 .r-box2{background:url(../images/long_05.jpg) no-repeat  0 -113px;}
 .right-3 .dd3 .r-box3{background:url(../images/long_05.jpg) no-repeat  0 -225px;}
 .right-3 .dd3 .r-box4{background:url(../images/long_05.jpg) no-repeat  0 -335px;}
@@ -141,9 +141,11 @@ a{text-decoration:none;}
 
 .right-7 dt{background:url(../images/r-7_03.jpg) no-repeat}
 .right-7 .dd1{color:#8e8e8e;margin-bottom:15px;}
-.right-7 .input input{width:200px;height:40px;border:1px solid #dcdcdc;vertical-align:top;padding-left:10px;}
+.right-7 .input input{width:200px;height:40px;border:1px solid #dcdcdc;vertical-align:top;padding-left:10px;outline:none;}
 .right-7 .input div{display:inline-block;height:42px;width:88px;background:#ff5842;text-align:center;line-height:42px;}
 .right-7 .input div a{color:#fff;}
+
+.s-d div{cursor:pointer;}
 
 
 

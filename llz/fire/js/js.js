@@ -70,6 +70,9 @@ window.onload = function () {
     var qgb = document.getElementById('qgb');
     var gbi = document.getElementById('gbi');
 
+    gbi.onclick = function () {
+        qgb.style.display = 'none';
+    };
 
     gbi.onclick = function () {
         qgb.style.display = 'none';
@@ -84,19 +87,16 @@ window.onload = function () {
     lt.onclick=function(){
         index--;
         if(index == -1){
-            index =li1.length-5;
-            ul1.style.left=-index*305+'px';
-            index=index-1;
+            index =(li1.length/2)-1;
         }
-        mySport(ul1,{left:-index*305});
+        ul1.style.left = -index*300+'px';
     };
     gt.onclick=function(){
         index++;
-        if(index == li1.length/2+1){
-            index =1;
-            ul1.style.left=0;
+        if(index == li1.length/2){
+            index =0;
         }
-        mySport(ul1,{left:-index*305});
+        ul1.style.left = -index*301+'px';
     };
     
 
@@ -142,7 +142,7 @@ window.onload = function () {
         }
         mySport(foor,{marginTop :-172*index});
         // foor.style.marginTop = -172*index+'px'
-    };
+    }
 
     ////////////////////////////////////////////////////////////
 
@@ -188,7 +188,7 @@ window.onload = function () {
     }
 
 
-};
+}
 
 
 
