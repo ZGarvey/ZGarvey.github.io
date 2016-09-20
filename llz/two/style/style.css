@@ -93,7 +93,7 @@ a{text-decoration:none;}
 .wei-body3 .foor-2 li{float:left;width:592px;height:242px;background:#686868 url("../images/35.jpg");margin-right:10px;margin-bottom:10px;border:1px solid #f8f8f8;overflow: hidden}
 .wei-body3 .foor-2 li:nth-child(2){margin-right:0;background:#686868 url("../images/36.jpg")}
 .wei-body3 .foor-2 li:nth-child(3){background:#686868 url("../images/37.jpg")}
-.wei-body3 .foor-2 li:nth-child(4){margin-right:0;background:#686868 url("../images/38.jpg")}
+.wei-body3 .foor-2 li:nth-child(4){margin-right:0;background:#686868 url("../images/38.jpg");background-size:594px 244px;}
 .wei-body3 .poo a{display:inline-block;height:32px;line-height:32px;border-right:1px solid #e6e6e6;padding:0 20px 0 20px;color:#646464}
 .wei-body3 .poo a:hover{color:#ff7666}
 .wei-body3 .poo a:nth-child(4){border:0 none;padding-right:0}
