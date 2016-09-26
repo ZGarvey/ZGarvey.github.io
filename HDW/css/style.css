@@ -45,14 +45,14 @@ a{text-decoration:none;font-family:"微软雅黑";}
 .two-middle .kei-one li a:hover{background:#605c5c;color:#fff;}
 .two-middle .kei-one li:nth-child(1) a{background:#3399fe;color:#fff;}
 .two-middle .kei-one li:nth-child(2) a{text-align:left;}
-.two-middle .yiru{width:115px;margin-left:20px;z-index:9999;}
+.two-middle .yiru{width:117px;margin-left:20px;z-index:9999;}
 .two-middle .yiru:hover .kei-two{display: block}
 .two-middle .yiru:hover{background:#605c5c; }
 
-.two-middle .kei-two {width:115px;position: relative;left:0px;top:-4px;border-radius:4px;display: none;background:#605c5c;z-index:9999}
+.two-middle .kei-two {width:117px;position: relative;left:0px;top:-4px;border-radius:4px;display: none;background:#605c5c;z-index:9999}
 .two-middle .kei-two li{width:115px;}
 .two-middle .kei-two li:nth-child(1) a{background:#605c5c;color:#b8bcc4;}
-.two-middle .kei-two li a{ margin-left:0;display:inline-block;font-size:12px;width:100px;height:30px;line-height:30px;text-indent:16px;color:#b8bcc4;}
+.two-middle .kei-two li a{ margin-left:0;display:inline-block;font-size:12px;width:117px;height:30px;line-height:30px;text-indent:16px;color:#b8bcc4;}
 .two-middle .kei-two li a:hover{border-radius:4px;background:#3399fe;color:#fff;}
 
 .two-right li{float:left;font-size:15px;}
